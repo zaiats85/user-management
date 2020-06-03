@@ -1,0 +1,43 @@
+.w3-bar .add-group-button {
+    white-space: normal;
+    padding: 20px 10px;
+    color: gray;
+}
+
+.w3-bar .add-group-button:hover {
+    cursor: pointer;
+    color: #313131;
+}
+
+.group-logo {
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    padding-top: 7px;
+    color: #fff;
+    font-size: 25px;
+    background-color: #f57400;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.w3-bar .w3-bar-item {
+    display: block;
+    width: calc(100% - 110px);
+    border-right: 1px solid #e8e8e8;
+}
+
+.w3-bar-item:hover {
+    cursor: pointer;
+}
+
+.added-group {
+    opacity: .4;
+}
+
+.fa.fa-check.disabled-item {
+    pointer-events: none;
+    color: green;
+}

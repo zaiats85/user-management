@@ -1,0 +1,40 @@
+.groups-buttons-container {
+    float: right;
+    margin: 10px;
+}
+
+.groups-table-container {
+    width: 100%;
+    padding: 10px;
+}
+
+.groups-table {
+    width: 100%;
+    font-family: 'PT Sans Caption';
+    color: #3b3b3b;
+    font-size: 15px;
+    border-collapse: collapse;
+}
+
+.groups-table th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.groups-table th:first-child {
+    width: 50px;
+}
+
+.groups-table tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.groups-table tr:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.groups-table th {
+    background-color: #4CAF50;
+    color: white;
+}
